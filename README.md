@@ -10,8 +10,6 @@ The implementation uses Python 3.5 and [Keras](http://keras.io) as the neural ne
 ## Performance at [QATS](http://qats2016.github.io/)
 The metric was submitted to the LREC 2016 Shared Task on Quality Assessment for Text Simplification. The results on the QATS test set:
 
-### Accuracies
-
 **Grammaticality:**
 
 **Meaning:**
@@ -19,49 +17,3 @@ The metric was submitted to the LREC 2016 Shared Task on Quality Assessment for 
 **Simplicity:**
 
 **Overall:**
-
-### Weighted F-scores
-
-**Grammaticality:**
-
-**Meaning:**
-
-**Simplicity:**
-
-**Overall:**
-
-### Confusion Matrices
-
-Horizontal: predicted, vertical: reference
-
-**Grammaticality:**
-
-         | Bad   | Ok    | Good
-         | ----- | ----- | -----
-**Bad**  |       |       |      
-**Ok**   |       |       |      
-**Good** |       |       |      
-
-**Meaning:**
-
-         | Bad   | Ok    | Good
-         | ----- | ----- | -----
-**Bad**  |       |       |      
-**Ok**   |       |       |      
-**Good** |       |       |      
-
-**Simplicity:**
-
-         | Bad   | Ok    | Good
-         | ----- | ----- | -----
-**Bad**  |       |       |      
-**Ok**   |       |       |      
-**Good** |       |       |      
-
-**Overall:**
-
-         | Bad   | Ok    | Good
-         | ----- | ----- | -----
-**Bad**  |       |       |      
-**Ok**   |       |       |      
-**Good** |       |       |      
